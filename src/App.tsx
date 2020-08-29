@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import classes from "./App.module.css";
 
-function App() {
+import Header from "./Components/Header/Header";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import MyView from "./Components/MyView/MyView";
+import MySkills from "./Components/MySkills/MySkills";
+
+const App=()=> {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={classes.body}>
+        <Header/>
+        <MyView/>
+        <MySkills/>
     </div>
   );
 }

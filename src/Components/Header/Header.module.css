@@ -1,0 +1,21 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+}
+.menu a{
+    font-size: 17px;
+    font-weight: 600;
+    display: block;
+    color: white !important;
+}
+.menu a:hover{
+    cursor: pointer;
+    color: gold!important;
+}
+.header {
+    position: absolute;
+    z-index: 90;
+    width: 100%;
+}

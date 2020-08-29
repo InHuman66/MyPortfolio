@@ -1,0 +1,59 @@
+.sizeBody {
+    height: 100vh;
+    background-color: #1F1F20FF;
+}
+
+.textPosition {
+    display: flex;
+    align-items: center;
+}
+.txtStyle p{
+    font-size: 19px;
+    color: white;
+    margin: 0;
+
+}
+.txtStyle h1{
+    color: white;
+    font-size: 40px;
+
+}
+.txtStyle h2{
+    color: white;
+    font-size: 30px;
+
+}
+.myPhoto img{
+    width: 360px;
+    height: 400px;
+    background-color: white;
+}
+.myPhoto {
+    display: flex;
+    align-items: center;
+}
+.sizeCont {
+    height: 100vh;
+}
+
+@media screen and (max-width: 767px){
+    .textPosition{
+        text-align: center !important;
+    }
+    .txtStyle {
+        margin: 0 auto !important;
+    }
+    .myPhoto img{
+        margin: 0 auto  !important;
+    }
+}
+@media screen and (max-width: 991px){
+    .txtStyle h1{
+        font-size: 30px;
+
+    }
+    .myPhoto img{
+        width: 260px;
+        height: 300px;
+    }
+}
