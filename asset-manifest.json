@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.d238e124.chunk.css",
-    "main.js": "/MyPortfolio/static/js/main.1bbc99f8.chunk.js",
-    "main.js.map": "/MyPortfolio/static/js/main.1bbc99f8.chunk.js.map",
+    "main.css": "/MyPortfolio/static/css/main.a4299f91.chunk.css",
+    "main.js": "/MyPortfolio/static/js/main.0ad41bee.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.0ad41bee.chunk.js.map",
     "runtime-main.js": "/MyPortfolio/static/js/runtime-main.e8be6c19.js",
     "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.e8be6c19.js.map",
     "static/css/2.11829350.chunk.css": "/MyPortfolio/static/css/2.11829350.chunk.css",
-    "static/js/2.58e9a814.chunk.js": "/MyPortfolio/static/js/2.58e9a814.chunk.js",
-    "static/js/2.58e9a814.chunk.js.map": "/MyPortfolio/static/js/2.58e9a814.chunk.js.map",
+    "static/js/2.ce2c24bf.chunk.js": "/MyPortfolio/static/js/2.ce2c24bf.chunk.js",
+    "static/js/2.ce2c24bf.chunk.js.map": "/MyPortfolio/static/js/2.ce2c24bf.chunk.js.map",
     "index.html": "/MyPortfolio/index.html",
-    "precache-manifest.967970449cfeafddfca3456d2d2408f5.js": "/MyPortfolio/precache-manifest.967970449cfeafddfca3456d2d2408f5.js",
+    "precache-manifest.ee4c844fd28799db4cf7231eb7c216f6.js": "/MyPortfolio/precache-manifest.ee4c844fd28799db4cf7231eb7c216f6.js",
     "service-worker.js": "/MyPortfolio/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/MyPortfolio/static/css/2.11829350.chunk.css.map",
-    "static/css/main.d238e124.chunk.css.map": "/MyPortfolio/static/css/main.d238e124.chunk.css.map",
-    "static/js/2.58e9a814.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.58e9a814.chunk.js.LICENSE.txt",
+    "static/css/main.a4299f91.chunk.css.map": "/MyPortfolio/static/css/main.a4299f91.chunk.css.map",
+    "static/js/2.ce2c24bf.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.ce2c24bf.chunk.js.LICENSE.txt",
+    "static/media/1_vAFl1TMSGcLL24w6R5z2NQ.jpeg": "/MyPortfolio/static/media/1_vAFl1TMSGcLL24w6R5z2NQ.2d7e5139.jpeg",
     "static/media/icons8-react-native-512.png": "/MyPortfolio/static/media/icons8-react-native-512.0d5548f9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e8be6c19.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.58e9a814.chunk.js",
-    "static/css/main.d238e124.chunk.css",
-    "static/js/main.1bbc99f8.chunk.js"
+    "static/js/2.ce2c24bf.chunk.js",
+    "static/css/main.a4299f91.chunk.css",
+    "static/js/main.0ad41bee.chunk.js"
   ]
 }
