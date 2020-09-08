@@ -1,0 +1,44 @@
+.backGround {
+    background-color: #3C3F41FF;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+.InfoBlock {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.InfoBlock h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+.InfoBlock button{
+    width: 150px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.2s;
+    background-color: #007bff;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+.InfoBlock button:hover{
+    background-color: #005cbf;
+}
+.InfoBlock button:focus{
+    outline:none!important;
+}
+@media screen and (max-width: 800px){
+    .InfoBlock h1{
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        font-weight: 700;
+    }
+}

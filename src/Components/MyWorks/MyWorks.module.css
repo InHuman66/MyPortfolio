@@ -1,0 +1,20 @@
+.backGroungSizeMyWorks {
+    padding-top: 35px;
+    background-color: #C4C4C4FF;
+    min-height: 100vh;
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.backgrounColor {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+}
+.BlockWorks {
+    margin-top: 60px;
+}

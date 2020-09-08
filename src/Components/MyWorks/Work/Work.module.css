@@ -1,0 +1,79 @@
+
+.backgrounColor {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+}
+.blockMyWork {
+    padding-top: 13px;
+    height: 600px;
+    width: 93%;
+}
+.backImg {
+    background-color: black;
+    width: 100%;
+    height: 400px;
+}
+.HoverImgStyle {
+    opacity: 0.5;
+    width: 100%;
+    height: 400px;
+    position: center;
+    object-fit: cover;
+}
+.NormalImgStyle {
+    width: 100%;
+    height: 400px;
+    position: center;
+    object-fit: cover;
+}
+.blocDescription {
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.blocDescription h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+.blocDescription p{
+    font-size: 18px;
+    font-weight: 700;
+}
+.HoverButtonStyle {
+    display: inherit;
+    border: none;
+    background-color: #007bff;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+}
+.NormalButtonStyle {
+    display: none;
+    border: none;
+    background-color: #007bff;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+}
