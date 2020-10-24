@@ -1,34 +1,46 @@
 import React, {useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import classes from "./Work.module.css";
-import background from "../../../Images/1_vAFl1TMSGcLL24w6R5z2NQ.jpeg"
 
-const Work=()=> {
+
+type PropsType ={
+    name: string,
+    img: string,
+    id: number,
+    smallDescription: string,
+
+
+}
+
+const Work: React.FC<PropsType>=(props)=> {
     let [styleForImg, setStyleForImg] = useState(classes.NormalImgStyle);
-    let [styleForButton, setStyleForButton] = useState(classes.NormalButtonStyle);
+    let styleForButton = classes.HoverButtonStyle;
+    let [styleForDescription, setStyleForDescription] = useState(classes.descriptionBlock);
 
     let OnMouseEnter = ()=>{
-        setStyleForButton(classes.HoverButtonStyle)
         setStyleForImg(classes.HoverImgStyle)
+        setStyleForDescription(classes.descriptionBlockHover)
     }
     let OnMouseLeave = ()=>{
-        setStyleForButton(classes.NormalButtonStyle)
         setStyleForImg(classes.NormalImgStyle)
+        setStyleForDescription(classes.descriptionBlock)
     }
 
   return (
-    <div className={classes.backgrounColor}>
-        <div className={classes.blockMyWork}>
-            <div onMouseEnter={()=>{OnMouseEnter()}} onMouseLeave={()=>{OnMouseLeave()}} className={classes.backImg}>
-                <img className={styleForImg} src={background}/>
-                <button className={styleForButton}>Смотреть</button>
-            </div>
-            <div className={classes.blocDescription }>
-                <h1>Work Name</h1>
-                <p>lorem daw  dwada awdawda dawd dwadawdawdawdw awdaw awdwa awdwad awdwadawd </p>
-            </div>
-        </div>
-    </div>
+      <div className={' col-12 col-md-12 col-lg-6'}>
+          <div className={classes.backgroundColor}>
+              <div className={classes.blockMyWork}>
+                  <div onMouseEnter={()=>{OnMouseEnter()}} onMouseLeave={()=>{OnMouseLeave()}} className={classes.backImg}>
+                      <img className={styleForImg} src={props.img}/>
+                      <div className={styleForDescription}>
+                          <h1 className={classes.titleDescription}>{props.name}</h1>
+                          <p className={classes.smallDescription}>{props.smallDescription}</p>
+                          <button className={styleForButton}>Смотреть</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
   );
 }
 

@@ -14,7 +14,7 @@ const Footer=()=> {
                     <a></a>
                     <a></a>
                 </div>
-                <p>2020 все права защещены</p>
+                <p>© 2020 All Rights Reserved.</p>
             </div>
       </div>
   );

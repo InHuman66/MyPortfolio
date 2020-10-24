@@ -6,36 +6,21 @@ import Work from "./Work/Work";
 
 const MyWorks=()=> {
 
-    // let styleForImg = classes.NormalImgStyle;
-    // let styleForButton = classes.NormalButtonStyle;
-    let [styleForImg, setStyleForImg] = useState(classes.NormalImgStyle);
-    let [styleForButton, setStyleForButton] = useState(classes.NormalButtonStyle);
-
-    let OnMouseEnter = ()=>{
-        setStyleForButton(classes.HoverButtonStyle)
-        setStyleForImg(classes.HoverImgStyle)
-    }
-    let OnMouseLeave = ()=>{
-        setStyleForButton(classes.NormalButtonStyle)
-        setStyleForImg(classes.NormalImgStyle)
-    }
-
-
-
+    let dataWorks =[
+        {id: 1, name: 'Social Network', img: background, smallDescription: 'It`s my first project on React' },
+        {id: 2, name: 'Social Network', img: background, smallDescription: 'It`s my first project on React' },
+        {id: 3, name: 'Social Network', img: background, smallDescription: 'It`s my first project on React' },
+        {id: 4, name: 'Social Network', img: background, smallDescription: 'It`s my first project on React' },
+    ]
 
   return (
     <div className={classes.backGroungSizeMyWorks}>
         <div className={'container'}>
             <div className={classes.title}>
-                <h1>Мои работы</h1>
+                <h1>My works</h1>
             </div>
             <div className={classes.BlockWorks + ' row'}>
-                    <div className={' col-12 col-md-12 col-lg-6'}>
-                        <Work/>
-                    </div>
-                    <div className={' col-12 col-md-12 col-lg-6'}>
-                        <Work/>
-                    </div>
+                {dataWorks.map((elem)=><Work key={elem.id} name={elem.name} img={elem.img} id={elem.id} smallDescription={elem.smallDescription}/> )}
             </div>
 
         </div>

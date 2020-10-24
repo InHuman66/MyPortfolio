@@ -7,8 +7,8 @@ import MyView from "./Components/MyView/MyView";
 import MySkills from "./Components/MySkills/MySkills";
 import MyWorks from "./Components/MyWorks/MyWorks";
 import RemoteWork from "./Components/RemoteWork/RemoteWork";
-import Footer from "./Components/Contact/Footer";
-import Contact from "./Components/Footer/Contact";
+import Footer from "./Components/Footer/Footer";
+import Contact from "./Components/ContactMe/Contact";
 
 const App=()=> {
   return (
@@ -17,7 +17,6 @@ const App=()=> {
         <MyView/>
         <MySkills/>
         <MyWorks/>
-        <RemoteWork/>
         <Contact/>
         <Footer/>
     </div>

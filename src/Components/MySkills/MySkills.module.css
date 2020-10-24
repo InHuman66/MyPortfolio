@@ -1,7 +1,8 @@
 .backgroundColorPage {
     padding-top: 25px;
     background-color: #000000FF;
-    height: 100vh;
+    min-height: 100vh;
+    padding-bottom: 30px;
 }
 .dawdwa {
     height: 100%;

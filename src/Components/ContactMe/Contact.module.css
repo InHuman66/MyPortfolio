@@ -1,0 +1,311 @@
+.backGround {
+    background-color: #1E1E28FF;
+    min-height: 100vh;
+    padding-bottom: 40px;
+}
+.OutsidePaddingTop {
+    padding-bottom: 15px;
+}
+.TitleNameStyle {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fafafc;
+    font-family: 'Poppins', sans-serif;
+}
+.TitleNameStyleContactForm {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fafafc;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+.StringBlockPosition {
+    display: flex;
+    justify-content: space-between;
+}
+.InfoBlock {
+    margin-top: 30px
+}
+.NameString {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fafafc;
+    line-height: 1.7;
+    font-family: 'Poppins', sans-serif;
+}
+.StringOfBlockInfo {
+    font-family: 'Poppins', sans-serif;
+    color: #BCBCC0FF;
+    font-size: 16px;
+    line-height: 1.7;
+}
+.containerFlex {
+    padding-top: 60px;
+}
+.InfoBlockBackSize {
+    padding: 35px 35px;
+    background-color: #2D2D39FF;
+    height: 170px;
+}
+.BackGroundContactForm {
+    background-color: #2C2C37FF;
+    padding: 30px;
+}
+.ContactForm {
+    margin-bottom: 30px;
+}
+.styleForLabelNormal{
+    transition: background-color 0.5s , color 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: #cacace;
+    width: 50px;
+    height: 50px;
+    background-color: #20202AFF;
+}
+.styleForLabelFocus{
+    transition: background-color 0.5s , color 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: black;
+    width: 50px;
+    height: 50px;
+    background-color: #FFC107FF;
+}
+.ContactForm i{
+    font-weight: 600;
+}
+
+.ContactForm input{
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(159deg,#252532 0%,#23232d 100%);
+    border: none;
+    color: #fafafc;
+    padding-left: 10px;
+    padding-right: 15px;
+    box-shadow: inset 0 1px 4px 0 rgba(15,15,20,.1);
+    margin-bottom: 0;
+
+}
+.ContactForm input:focus {
+    outline: none;
+}
+.ContactFormTextareaNormal {
+    transition: border-left-color 0.5s;
+    border-left: solid 50px #20202a!important;
+    height: 150px;
+    width: 100%;
+    border: none;
+    background: linear-gradient(159deg,#252532 0%,#23232d 100%);
+    color: #fafafc;
+    padding-left: 10px;
+    padding-right: 15px;
+    box-shadow: inset 0 1px 4px 0 rgba(15,15,20,.1);
+    margin-bottom: 0;
+}
+.ContactFormTextareaFocus {
+    transition: border-left-color 0.5s;
+    border-left: solid 50px #FFC107FF!important;
+    height: 150px;
+    width: 100%;
+    border: none;
+    background: linear-gradient(159deg,#252532 0%,#23232d 100%);
+    color: #fafafc;
+    padding-left: 10px;
+    padding-right: 15px;
+    box-shadow: inset 0 1px 4px 0 rgba(15,15,20,.1);
+    margin-bottom: 0;
+}
+.ContactForm textarea:focus {
+    outline: none;
+}
+.backGroundLabelTextArea {
+    position: absolute;
+    background-color: #20202AFF;
+    margin: 0!important;
+}
+.WrapperForTexArea {
+    margin-bottom: 15px;
+}
+.WrapperForInput {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+.ButtonSend {
+    transition:0.2s ;
+    font-family: 'Poppins', sans-serif;
+    height: 45px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 35px;
+    background-color: #FFC107FF;
+    border: none;
+    color: #20202a;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.ButtonSend:focus{
+    outline: none;
+}
+.ButtonSend:hover{
+    transition:  0.2s;
+    transform: translateY(-2px);
+}
+.error {
+    position: absolute;
+    margin-top: 90px;
+}
+.error p{
+    color: red;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.submitMessage {
+    visibility: inherit;
+    opacity: 1;
+    transition: opacity 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 70px;
+    background-color: #62B246FF;
+    border-radius: 5px;
+    z-index: 4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.submitMessageShowDown {
+    opacity: 0;
+    visibility: collapse;
+    transition: opacity 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 70px;
+    background-color: #62B246FF;
+    border-radius: 5px;
+    z-index: 4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.submitMessageFall {
+    padding: 0 20px;
+    visibility: inherit;
+    opacity: 1;
+    transition: opacity 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background-color: #DD4B39FF;
+    border-radius: 5px;
+    z-index: 4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.submitMessageShowDownFall {
+    padding: 0 20px;
+    opacity: 0;
+    visibility: collapse;
+    transition: opacity 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background-color: #DD4B39FF;
+    border-radius: 5px;
+    z-index: 4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.submitMessage p ,
+.submitMessageShowDown p,
+.submitMessageShowDownFall p,
+.submitMessageFall p{
+    margin: 0 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.submitMessage i,
+.submitMessageShowDown i,
+.submitMessageShowDownFall i,
+.submitMessageFall i{
+    color: white;
+    font-size: 35px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.fonForReqNormal {
+    visibility: inherit;
+    transition: visibility 0.3s;
+    background-color: #1E1E28FF;
+    opacity: 0.7;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 15px;
+    top: 0px;
+}
+.fonForReqShowDown {
+    visibility: collapse;
+    transition: visibility 0.3s;
+    background-color: #1E1E28FF;
+    opacity: 0.7;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 15px;
+    top: 0px;
+}
+
+.exp {
+    z-index: 3;
+    visibility: inherit;
+    transition: visibility 0.3s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.exp2 {
+    visibility: collapse;
+    transition: visibility 0.3s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.smile {
+    font-size: 25px;
+}
