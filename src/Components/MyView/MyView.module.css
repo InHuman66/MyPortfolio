@@ -1,19 +1,26 @@
 .sizeBody {
     min-height: 100vh;
     padding-bottom: 30px;
-    background-color: #1F1F20FF;
+    background-color: #1E1D1EFF;
 }
 .particles {
+    width: 100%;
     position: fixed;
     right: 0;
     bottom: 0;
     left: 0;
-    opacity: 0.3;
+    opacity: 0.5;
+    top: 0;
 ;
 }
 .textPosition {
     display: flex;
     align-items: center;
+}
+.txtStyle span{
+    color: white;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
 }
 .txtStyle p{
     font-size: 19px;
@@ -22,20 +29,38 @@
 
 }
 .txtStyle h1{
+    text-shadow: 5px 7px 25px 5px rgba(0,0,0,0.4);
     color: white;
     font-size: 40px;
 
 }
 .txtStyle h2{
+    text-shadow: 5px 7px 25px 5px rgba(0,0,0,0.4);
     color: white;
     font-size: 30px;
 
 }
-.myPhoto img{
+.style_image {
+    position: relative;
+    z-index: 1;
+}
+.my_image{
+    background-size: cover;
     width: 360px;
     height: 400px;
     background-color: white;
 }
+.my_image:after{
+    content: "";
+    position: absolute;
+    height: 110%;
+    width: 105%;
+    border: 4px solid #FFC107FF;
+    left: 15px;
+    top: -15px;
+    z-index: -1;
+}
+
 .myPhoto {
     display: flex;
     align-items: center;

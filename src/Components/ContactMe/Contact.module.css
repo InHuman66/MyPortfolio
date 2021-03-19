@@ -43,11 +43,13 @@
     padding-top: 60px;
 }
 .InfoBlockBackSize {
+    box-shadow: 5px 7px 25px 5px rgba(0,0,0,0.4);
     padding: 35px 35px;
     background-color: #2D2D39FF;
     height: 170px;
 }
 .BackGroundContactForm {
+    box-shadow: 5px 7px 25px 5px rgba(0,0,0,0.4);
     background-color: #2C2C37FF;
     padding: 30px;
 }

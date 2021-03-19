@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import classes from "./Work.module.css";
+import { NavLink } from 'react-router-dom';
 
 
 type PropsType ={
@@ -35,7 +36,7 @@ const Work: React.FC<PropsType>=(props)=> {
                       <div className={styleForDescription}>
                           <h1 className={classes.titleDescription}>{props.name}</h1>
                           <p className={classes.smallDescription}>{props.smallDescription}</p>
-                          <button className={styleForButton}>Смотреть</button>
+                          <NavLink className={classes.navLink} to={'/projects/' + props.id}>Watch this<i className="fas fa-angle-right"></i></NavLink>
                       </div>
                   </div>
               </div>

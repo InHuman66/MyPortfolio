@@ -1,0 +1,115 @@
+.backgroundColorPage {
+    padding-top: 25px;
+    background-color: #000000FF;
+    min-height: 100vh;
+    padding-bottom: 30px;
+    .dawdwa {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .HeadText {
+            text-align: center;
+            margin-bottom: 0;
+            h1{
+                color: #FDFDFDFF;
+            }
+        }
+    }
+    .positionBlockSkills{
+        margin-top: 20px;
+    }
+}
+
+.item_Skill{
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+    background-color: #2D2D39FF;
+    border-radius: 10px ;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    padding: 5px 6px;
+    transition: 0.5s;
+    img{
+        height: 50px;
+        width: auto;
+    }
+    h1{
+        font-size: revert;
+        transition: 0.5s;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 5px;
+    }
+    &:hover{
+        transform: translateY(2px);
+        cursor: pointer;
+        transition: 0.2s;
+        h1{
+            transition: 0.2s;
+            color: coral;
+        }
+    }
+}
+.item_Skill_Fok{
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+    background-color: #2D2D39FF;
+    border-radius: 10px ;
+    padding: 5px 6px;
+    transition: 0.5s;
+    box-shadow: 0 4px 0  -1px #FFC107FF;
+    img{
+        height: 50px;
+        width: auto;
+    }
+    h1{
+        font-size: revert;
+        transition: 0.5s;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 5px;
+        color: #FFC107FF;
+    }
+    &:hover{
+        transform: translateY(2px);
+        cursor: pointer;
+        transition: 0.2s;
+        h1{
+            transition: 0.2s;
+            color: coral;
+        }
+    }
+}
+.description_Block {
+    h1{
+        box-shadow: 5px 7px 25px 5px rgba(0,0,0,0.4);
+        border-bottom: 4px solid #FFC107FF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 64px;
+        border-radius: 10px 10px 0 0;
+        background-color: #242431FF;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+    }
+    .txtDescription{
+        box-shadow: 5px 7px 25px 5px rgba(0,0,0,0.4);
+        background-color: #2D2D39FF;
+        border-radius: 0 0 10px 10px;
+        width: 100%;
+        height: 500px;
+        padding: 10px 15px;
+        p{
+            transition: 0.5s;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+}

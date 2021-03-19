@@ -1,5 +1,8 @@
 .backGround {
-    background-color: #EBFFE4FF;
+    position: relative;
+    background-color: #2C2C37FF;
+}
+.BlockInfo {
     height: 400px;
     padding-top: 60px;
 }
@@ -12,6 +15,12 @@
 
 
 }
+.containerSize h1{
+    color: white;
+}
+.containerSize p{
+    color: white;
+}
 .socialMedialBlock {
     width: 550px;
     height: 60px;
@@ -19,11 +28,17 @@
     justify-content: space-between;
 }
 .socialMedialBlock a{
-     display: inherit;
-    background-color: black;
+    display: inherit;
     width: 60px;
     height: 60px;
- }
+}
+.socialMedialBlock a img{
+    width: 60px;
+    height: 60px;
+}
+.socialMedialBlock a:hover{
+    cursor: pointer;
+}
 
 @media screen and (max-width: 600px) {
     .socialMedialBlock {
