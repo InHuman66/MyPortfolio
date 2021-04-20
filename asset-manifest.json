@@ -1,27 +1,36 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.a4299f91.chunk.css",
-    "main.js": "/MyPortfolio/static/js/main.0ad41bee.chunk.js",
-    "main.js.map": "/MyPortfolio/static/js/main.0ad41bee.chunk.js.map",
+    "main.css": "/MyPortfolio/static/css/main.bbf8d18c.chunk.css",
+    "main.js": "/MyPortfolio/static/js/main.536a71d1.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.536a71d1.chunk.js.map",
     "runtime-main.js": "/MyPortfolio/static/js/runtime-main.e8be6c19.js",
     "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.e8be6c19.js.map",
-    "static/css/2.11829350.chunk.css": "/MyPortfolio/static/css/2.11829350.chunk.css",
-    "static/js/2.ce2c24bf.chunk.js": "/MyPortfolio/static/js/2.ce2c24bf.chunk.js",
-    "static/js/2.ce2c24bf.chunk.js.map": "/MyPortfolio/static/js/2.ce2c24bf.chunk.js.map",
+    "static/css/2.3cf5d70f.chunk.css": "/MyPortfolio/static/css/2.3cf5d70f.chunk.css",
+    "static/js/2.df06ab91.chunk.js": "/MyPortfolio/static/js/2.df06ab91.chunk.js",
+    "static/js/2.df06ab91.chunk.js.map": "/MyPortfolio/static/js/2.df06ab91.chunk.js.map",
     "index.html": "/MyPortfolio/index.html",
-    "precache-manifest.ee4c844fd28799db4cf7231eb7c216f6.js": "/MyPortfolio/precache-manifest.ee4c844fd28799db4cf7231eb7c216f6.js",
+    "precache-manifest.2c4f9fadb4428d13e815943f73c41ad7.js": "/MyPortfolio/precache-manifest.2c4f9fadb4428d13e815943f73c41ad7.js",
     "service-worker.js": "/MyPortfolio/service-worker.js",
-    "static/css/2.11829350.chunk.css.map": "/MyPortfolio/static/css/2.11829350.chunk.css.map",
-    "static/css/main.a4299f91.chunk.css.map": "/MyPortfolio/static/css/main.a4299f91.chunk.css.map",
-    "static/js/2.ce2c24bf.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.ce2c24bf.chunk.js.LICENSE.txt",
+    "static/css/2.3cf5d70f.chunk.css.map": "/MyPortfolio/static/css/2.3cf5d70f.chunk.css.map",
+    "static/css/main.bbf8d18c.chunk.css.map": "/MyPortfolio/static/css/main.bbf8d18c.chunk.css.map",
+    "static/js/2.df06ab91.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.df06ab91.chunk.js.LICENSE.txt",
     "static/media/1_vAFl1TMSGcLL24w6R5z2NQ.jpeg": "/MyPortfolio/static/media/1_vAFl1TMSGcLL24w6R5z2NQ.2d7e5139.jpeg",
-    "static/media/icons8-react-native-512.png": "/MyPortfolio/static/media/icons8-react-native-512.0d5548f9.png"
+    "static/media/GitLogo.png": "/MyPortfolio/static/media/GitLogo.b23d8b67.png",
+    "static/media/JSIcons.png": "/MyPortfolio/static/media/JSIcons.a00831a7.png",
+    "static/media/Node.js_logo.svg": "/MyPortfolio/static/media/Node.js_logo.89ccb090.svg",
+    "static/media/Social Network lol.png": "/MyPortfolio/static/media/Social Network lol.4405eed6.png",
+    "static/media/github.png": "/MyPortfolio/static/media/github.d22ee372.png",
+    "static/media/instagram.png": "/MyPortfolio/static/media/instagram.4a8c2347.png",
+    "static/media/lokiExp.png": "/MyPortfolio/static/media/lokiExp.12f2bb82.png",
+    "static/media/MyView.module.css": "/MyPortfolio/static/media/myPhoto.2a48ba33.png",
+    "static/media/social-network-concept_23-2147509439.jpg": "/MyPortfolio/static/media/social-network-concept_23-2147509439.5e15c07e.jpg",
+    "static/media/to-do-list-in-your-back-office.jpg": "/MyPortfolio/static/media/to-do-list-in-your-back-office.5e80f3fd.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e8be6c19.js",
-    "static/css/2.11829350.chunk.css",
-    "static/js/2.ce2c24bf.chunk.js",
-    "static/css/main.a4299f91.chunk.css",
-    "static/js/main.0ad41bee.chunk.js"
+    "static/css/2.3cf5d70f.chunk.css",
+    "static/js/2.df06ab91.chunk.js",
+    "static/css/main.bbf8d18c.chunk.css",
+    "static/js/main.536a71d1.chunk.js"
   ]
 }
