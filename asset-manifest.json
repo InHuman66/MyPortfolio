@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.bbf8d18c.chunk.css",
-    "main.js": "/MyPortfolio/static/js/main.536a71d1.chunk.js",
-    "main.js.map": "/MyPortfolio/static/js/main.536a71d1.chunk.js.map",
+    "main.css": "/MyPortfolio/static/css/main.29ac0733.chunk.css",
+    "main.js": "/MyPortfolio/static/js/main.08d37c66.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.08d37c66.chunk.js.map",
     "runtime-main.js": "/MyPortfolio/static/js/runtime-main.e8be6c19.js",
     "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.e8be6c19.js.map",
     "static/css/2.3cf5d70f.chunk.css": "/MyPortfolio/static/css/2.3cf5d70f.chunk.css",
-    "static/js/2.df06ab91.chunk.js": "/MyPortfolio/static/js/2.df06ab91.chunk.js",
-    "static/js/2.df06ab91.chunk.js.map": "/MyPortfolio/static/js/2.df06ab91.chunk.js.map",
+    "static/js/2.cff8e22d.chunk.js": "/MyPortfolio/static/js/2.cff8e22d.chunk.js",
+    "static/js/2.cff8e22d.chunk.js.map": "/MyPortfolio/static/js/2.cff8e22d.chunk.js.map",
     "index.html": "/MyPortfolio/index.html",
-    "precache-manifest.2c4f9fadb4428d13e815943f73c41ad7.js": "/MyPortfolio/precache-manifest.2c4f9fadb4428d13e815943f73c41ad7.js",
+    "precache-manifest.bf8bb364752b2502da9c0ca83a7c7f4d.js": "/MyPortfolio/precache-manifest.bf8bb364752b2502da9c0ca83a7c7f4d.js",
     "service-worker.js": "/MyPortfolio/service-worker.js",
     "static/css/2.3cf5d70f.chunk.css.map": "/MyPortfolio/static/css/2.3cf5d70f.chunk.css.map",
-    "static/css/main.bbf8d18c.chunk.css.map": "/MyPortfolio/static/css/main.bbf8d18c.chunk.css.map",
-    "static/js/2.df06ab91.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.df06ab91.chunk.js.LICENSE.txt",
+    "static/css/main.29ac0733.chunk.css.map": "/MyPortfolio/static/css/main.29ac0733.chunk.css.map",
+    "static/js/2.cff8e22d.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.cff8e22d.chunk.js.LICENSE.txt",
     "static/media/1_vAFl1TMSGcLL24w6R5z2NQ.jpeg": "/MyPortfolio/static/media/1_vAFl1TMSGcLL24w6R5z2NQ.2d7e5139.jpeg",
     "static/media/GitLogo.png": "/MyPortfolio/static/media/GitLogo.b23d8b67.png",
     "static/media/JSIcons.png": "/MyPortfolio/static/media/JSIcons.a00831a7.png",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.e8be6c19.js",
     "static/css/2.3cf5d70f.chunk.css",
-    "static/js/2.df06ab91.chunk.js",
-    "static/css/main.bbf8d18c.chunk.css",
-    "static/js/main.536a71d1.chunk.js"
+    "static/js/2.cff8e22d.chunk.js",
+    "static/css/main.29ac0733.chunk.css",
+    "static/js/main.08d37c66.chunk.js"
   ]
 }
